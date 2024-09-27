@@ -38,11 +38,15 @@ python chat.py
 ```
 
 File Overview
+- **Proyecto Fontana Juan Andres Corredor** - pdf of the investigation behind the project
 - **chat.py**: Main script to start the assistant.
 - **intents.json**: Knowledge base containing conversation patterns.
 - **model.py**: Neural network model for understanding and generating responses.
 - **nltk_utils.py**: Utilities for NLP tasks like tokenization and stemming.
 - **data.pth**: Trained model data used by the assistant.
+- **requirements.txt**: List of required libraries for the project.
+- **README.md**: This file.
+
 
 Author
 Juan Andrés Corredor
