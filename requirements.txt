@@ -1,0 +1,10 @@
+random
+json
+unicodedata
+os
+time
+playsound
+speech_recognition
+gtts
+torch
+nltk

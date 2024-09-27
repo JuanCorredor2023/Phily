@@ -1,0 +1,390 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hola",
+        "como estas",
+        "hay alguien ahi?",
+        "que tal",
+        "hi",
+        "hello"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hola, como te encuentras el dia de hoy",
+        "hola, en que te puedo ayudar ",
+        "que te paso"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["chao", "adios", "Goodbye","bye","quit","exit","salir"],
+      "responses": [
+        "Chao, espero tengas un excelente dia",
+        "ten un buen dia",
+        "Bye! estoy aqui para lo que necesites."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "gracias", "muchas gracias"],
+      "responses": ["Feliz de ayudarte!", "Cuando quieras!", "es un placer ayudarte"]
+    },
+    {
+      "tag": "ansiedad",
+      "patterns": [
+   "Estoy experimentando ansiedad y no estoy seguro de como manejarla.", 
+  "Ultimamente he estado lidiando con la ansiedad y no se como controlarla",
+  "Estoy sintiendo ansiedad y no tengo idea de como lidiar con ello",
+  "La ansiedad me esta afectando y no se como manejarla adecuadamente",
+  "Siento una gran cantidad de ansiedad en este momento y no se como enfrentarla",
+  "Mi ansiedad se ha intensificado y no estoy seguro de que hacer al respecto",
+  "La ansiedad esta afectando mi bienestar mental y necesito encontrar una manera de manejarla",
+  "Estoy teniendo dificultades para controlar mi ansiedad y necesito ayuda para manejarla",
+  "La ansiedad esta interfiriendo en mi vida diaria y necesito encontrar formas de manejarla mejor",
+  "La ansiedad esta afectando mi capacidad para funcionar y necesito encontrar maneras efectivas de manejarla",
+  "La ansiedad es abrumadora y necesito encontrar maneras de manejarla para poder avanzar"
+      ],
+      "responses": [
+          "Es importante buscar ayuda profesional si estas lidiando con ansiedad. Tambien hay algunas tecnicas de relajacion y ejercicios que pueden ayudar a reducir los sintomas de ansiedad, como la respiracion profunda y la meditacion.",
+"La ansiedad es una respuesta natural del cuerpo ante situaciones estresantes, pero puedes aprender tecnicas de relajacion como la respiracion profunda y la meditacion para reducirla.",
+"Intenta identificar los desencadenantes de tu ansiedad y busca maneras saludables de enfrentarlos, como hablar con alguien de confianza o hacer ejercicio regularmente.",
+"Recuerda que la ansiedad es tratable y que hay muchas opciones disponibles, desde terapia hasta medicacion. Busca ayuda si sientes que no puedes manejarla por ti mismo.",
+"Haz una lista de las cosas que te ayudan a sentir mas tranquilo y seguro, y trata de incorporarlas en tu rutina diaria. Tambien es importante establecer limites saludables en tu vida para reducir el estres.",
+"Trata de desafiar tus pensamientos ansiosos y reemplazarlos con pensamientos positivos y realistas. Hablar con un terapeuta o consejero puede ser muy util para aprender como hacer esto.",
+"Prueba tecnicas de relajacion como la visualizacion o la aromaterapia para reducir la ansiedad. Ademas, trata de identificar patrones de pensamiento negativos y trabaja para cambiarlos.",
+"Asegurate de cuidar tu cuerpo con una alimentacion saludable, ejercicio regular y suficiente descanso. Tambien puedes considerar la terapia cognitivo-conductual o la terapia de exposicion para superar la ansiedad.",
+"Busca apoyo de amigos y familiares, o considera unirte a un grupo de apoyo. La terapia de grupo tambien puede ser una opcion efectiva para lidiar con la ansiedad.",
+"Aprende a decir no a las cosas que te hacen sentir abrumado y establece limites claros en tus relaciones. Trata de reducir la cantidad de tiempo que pasas en situaciones que te causan ansiedad.",
+"Recuerda que no estas solo en tu lucha contra la ansiedad. Hay muchas personas que experimentan lo mismo y hay muchas opciones de tratamiento disponibles para ayudarte a manejarla."
+      ]
+  },
+  {
+      "tag": "abrumado",
+      "patterns": [
+          "Me siento abrumado por la cantidad de responsabilidades que tengo y estoy luchando por mantenerme enfocado.",
+  "Estoy teniendo dificultades para mantenerme enfocado debido a la gran cantidad de responsabilidades que tengo",
+  "Siento que estoy siendo abrumado por mis responsabilidades y me esta costando mantener la concentracion",
+  "La cantidad de responsabilidades que tengo es demasiado para mi en este momento y estoy luchando por mantenerme enfocado",
+  "Me siento sobrecargado por todas mis responsabilidades y estoy teniendo problemas para concentrarme en lo que necesito hacer",
+  "Mis responsabilidades me estan afectando y estoy luchando por mantener mi enfoque en lo que es importante",
+  "La cantidad de trabajo que tengo es abrumadora y estoy luchando por mantener la concentracion en todo lo que tengo que hacer",
+  "Me siento como si estuviera bajo una gran presion debido a mis responsabilidades y estoy luchando por mantenerme enfocado",
+  "La cantidad de responsabilidades que tengo es demasiado para manejar y me esta costando mantener mi enfoque en lo que es importante",
+  "Me siento abrumado por la cantidad de trabajo que tengo y estoy luchando por mantener mi concentracion en lo que necesito hacer",
+  "Estoy sintiendo la carga de mis responsabilidades y necesito encontrar una manera de mantener mi enfoque y seguir adelante"
+  
+      ],
+      "responses": [
+          "Es posible que desees considerar la creacion de una lista de tareas y establecer prioridades. Tambien puede ser util tomar descansos regulares y dividir las tareas grandes en tareas mas pequeñas y manejables.",
+"Trata de dividir tus responsabilidades en tareas mas pequeñas y manejables para que no te sientas tan abrumado. Prioriza las tareas mas importantes y trabaja en ellas primero.",
+"Crea un horario realista que te permita dedicar tiempo suficiente a cada tarea. Tambien asegurate de tomarte descansos regulares para ayudar a mantenerte enfocado.",
+"Considera pedir ayuda a amigos, familiares o compañeros de clase. Delegar algunas responsabilidades puede reducir la carga y ayudarte a mantener el enfoque.",
+"Aprende a decir no a las cosas que no son absolutamente necesarias en tu vida. Establece limites claros en tus relaciones y en tu tiempo para reducir la cantidad de responsabilidades.",
+"Practica tecnicas de atencion plena para ayudarte a mantenerte presente y enfocado en el momento presente. Tambien puedes probar la meditacion para calmar tu mente y reducir el estres.",
+"Haz una lista de tus tareas y establece prioridades. Asegurate de celebrar tus logros y tomar un tiempo para ti mismo para evitar el agotamiento y la falta de motivacion.",
+"Trata de encontrar un lugar tranquilo para trabajar donde no te distraigan. Tambien puedes usar herramientas tecnologicas como bloqueadores de distracciones o aplicaciones de organizacion para ayudarte a mantener el enfoque.",
+"Haz ejercicio regularmente para liberar la tension y el estres acumulado. Tambien es importante dormir lo suficiente y comer una dieta equilibrada para mantener tu energia y concentracion.",
+"Recuerda que no puedes hacerlo todo perfectamente todo el tiempo. Aprende a perdonarte a ti mismo por errores y a aceptar ayuda cuando la necesites.",
+"Busca ayuda profesional si te sientes abrumado o si tienes dificultades para mantener el enfoque en tus responsabilidades. Un terapeuta o consejero puede ayudarte a desarrollar estrategias efectivas para manejar el estres y la carga de trabajo."
+
+      ]
+  },
+  {
+      "tag": "depresion",
+      "patterns": [
+          "Me siento deprimido y no estoy disfrutando de las cosas que solia amar.",
+"Me siento abrumado y no estoy encontrando motivacion para hacer nada",
+"Me siento triste y no disfruto de las cosas simples que antes me hacian feliz",
+"Me siento apatico y no tengo interes en hacer nada en absoluto",
+"Me siento desesperado y no encuentro la manera de salir de este estado de animo",
+"Me siento desconectado y no logro encontrar sentido en las cosas que solia valorar",
+"Me siento vacio y no encuentro alegria en nada de lo que hago",
+"Me siento perdido y no se como recuperar mi entusiasmo por la vida",
+"Me siento agotado y no tengo energia para hacer las cosas que me gustaban antes",
+"Me siento abatido y no encuentro consuelo en las cosas que solian reconfortarme",
+"Me siento solo y no encuentro satisfaccion en las relaciones que antes me importaban"
+
+      ],
+      "responses": [
+          "La depresion es una enfermedad real y tratable. Si te sientes deprimido, es importante buscar ayuda profesional. La terapia y los medicamentos pueden ser utiles para tratar la depresion.",
+"Es importante reconocer que tus sentimientos de tristeza y desmotivacion son validos y que no estas solo en esto.", 
+"Es posible que necesites buscar ayuda profesional para superar tus sentimientos de depresion y encontrar alegria en las cosas de nuevo.",
+"Trata de encontrar pequeñas cosas que te hagan feliz y hazlas regularmente para aumentar tu estado de animo y encontrar mas alegria en la vida.", 
+"No te rindas, incluso si sientes que las cosas nunca mejoraran. La ayuda esta disponible y puede ayudarte a encontrar una forma de superar estos sentimientos.", 
+"Intenta hablar con amigos o familiares cercanos sobre tus sentimientos. A veces, solo hablar de lo que esta sucediendo puede hacer una gran diferencia.", 
+"Enfocate en cuidar de ti mismo. Haz cosas que te hagan sentir bien, como comer sano, hacer ejercicio y dormir lo suficiente.",
+"Recuerda que esta situacion es temporal y que eventualmente encontraras la felicidad de nuevo. No pierdas la esperanza.", 
+"Encuentra maneras de establecer metas y objetivos pequeños para ti mismo. El progreso y el logro pueden ser motivadores y pueden ayudarte a superar tus sentimientos de desmotivacion.", 
+"Trata de hacer cosas que te desafien y te permitan crecer. Esto puede ayudarte a encontrar mas significado y proposito en tu vida.", 
+"No tengas miedo de pedir ayuda. Hay muchas personas dispuestas a apoyarte y a ayudarte a superar tus sentimientos de depresion."
+      ]
+  },
+  {
+      "tag": "soledad",
+      "patterns": [
+          "Me siento solo y me cuesta hacer amigos.",
+  "Estoy teniendo dificultades para hacer amigos y me siento solo en este momento",
+  "Siento que no tengo muchos amigos y estoy luchando por conectarme con otras personas",
+  "La soledad es una lucha constante para mi y me esta costando hacer amigos",
+  "Me resulta dificil hacer amigos y estoy sintiendo la carga de la soledad",
+  "Me siento aislado y solo, y estoy luchando por encontrar personas con las que conectarme",
+  "Hacer amigos es un desafio para mi y estoy luchando por encontrar personas con las que pueda relacionarme",
+  "La soledad me esta afectando y estoy teniendo dificultades para encontrar amigos con los que pueda compartir mi vida",
+  "Estoy luchando por conectarme con otras personas y siento que me falta una comunidad solida",
+  "La falta de amigos es un problema para mi y estoy luchando por encontrar personas con las que pueda establecer una conexion significativa",
+  "La soledad es una carga pesada para mi y necesito encontrar formas de hacer amigos y construir relaciones significativas"
+  
+      ],
+      "responses": [
+          "Para combatir la soledad, es importante ser proactivo y buscar oportunidades para conocer gente nueva. Esto puede incluir unirse a clubes o grupos de interes, asistir a eventos sociales o hacer trabajo voluntario.",  "La soledad puede ser dificil de manejar, pero hay formas de conectarse con otras personas. Puede ser util buscar actividades que disfrutes y unirte a grupos o clubes relacionados con esos intereses. Tambien puede ser util tomar la iniciativa y hablar con personas nuevas, o buscar la ayuda de un terapeuta si se siente muy solo." ,
+"A veces, hacer amigos puede llevar tiempo y eso esta bien. No te rindas y sigue buscando personas con intereses similares a los tuyos.",
+"Explora nuevos pasatiempos y actividades donde puedas conocer a otras personas con intereses similares. Esto puede ser una gran oportunidad para hacer amigos.",
+"No te centres demasiado en la cantidad de amigos que tienes, sino en la calidad de las relaciones que construyes. Una o dos amistades significativas pueden ser muy valiosas.",
+"Trata de ser amable y comprensivo con los demas. A menudo, esto puede ayudar a fomentar nuevas amistades.",
+"Considera unirte a un club o equipo deportivo en tu escuela o comunidad. Esta puede ser una excelente manera de conocer a nuevas personas y hacer amigos.",
+"No temas ser tu mismo y ser autentico en tus interacciones con los demas. Las verdaderas amistades se basan en la confianza y la honestidad.",
+"Recuerda que todos hemos experimentado la soledad en algun momento de nuestras vidas. No estas solo en esto y hay muchas personas que estan dispuestas a hacerte compañia si te das la oportunidad de conocerlas.",
+"Trata de ser proactivo y hacer planes para socializar con otras personas. Esto puede ser una gran manera de fomentar nuevas amistades.",
+"Si te sientes incomodo socializando en grandes grupos, considera acercarte a las personas una por una y construir relaciones mas intimas de esta manera.",
+"No tengas miedo de pedir ayuda si te sientes abrumado o solo. Hablar con un consejero o un adulto de confianza puede ser una gran ayuda en momentos dificiles."
+      ]
+  },
+  {
+      "tag": "comparacion",
+      "patterns": [
+          "Me siento insuficiente y comparo mi vida con la de los demas.", 
+  "Estoy luchando contra sentimientos de insuficiencia y siempre me comparo con los demas",
+  "Siento que no soy lo suficientemente bueno y me comparo con los demas constantemente",
+  "La comparacion es un problema para mi y me esta haciendo sentir insuficiente en mi vida",
+  "Me siento constantemente insuficiente y siempre estoy midiendo mi vida en comparacion con la de los demas",
+  "Comparar mi vida con la de los demas me esta haciendo sentir como si no fuera lo suficientemente bueno",
+  "Siento que no estoy a la altura y estoy luchando por detener la comparacion con los demas",
+  "Comparar mi vida con la de los demas es un patron de pensamiento constante y esta afectando mi autoestima",
+  "La comparacion es una lucha constante para mi y me hace sentir insuficiente en mi propia vida",
+  "Estoy luchando contra sentimientos de insuficiencia y estoy atrapado en un ciclo interminable de comparacion",
+  "La comparacion me esta robando la alegria y me hace sentir que no soy lo suficientemente bueno en mi propia vida"
+  
+      ],
+      "responses": [
+          "La comparacion constante puede ser perjudicial para la autoestima. En lugar de compararte con los demas, trata de centrarte en tus propios objetivos y logros. Tambien puede ser util recordar que la vida de las personas en las redes sociales no siempre es lo que parece.", "La comparacion social puede ser toxica para la autoestima y la salud mental. Puede ser util recordar que cada persona tiene su propio camino y que es importante centrarse en los propios logros y metas en lugar de compararse con los demas. Tambien puede ser util limitar la exposicion a las redes sociales y buscar la ayuda de un terapeuta si la comparacion social se siente abrumadora.", "Mantener una perspectiva realista de ti mismo es importante, en lugar de compararte con los demas todo el tiempo.",
+"Recuerda que cada persona tiene su propio camino y circunstancias unicas, asi que no te compares con los demas.",
+"Enfocate en tus propias fortalezas y logros en lugar de compararte con los demas todo el tiempo.",
+"No permitas que la comparacion te impida apreciar tus propias cualidades y logros unicos.",
+"Aprende a valorarte por quien eres y no por lo que tienes o lo que haces en comparacion con los demas.",
+"En lugar de compararte con los demas, trabaja en ser la mejor version de ti mismo cada dia.",
+"Recuerda que la comparacion es el ladron de la alegria, asi que enfocate en tu propio progreso y crecimiento personal.",
+"Trata de evitar las redes sociales o limita tu tiempo en ellas si te hacen sentir inadecuado en comparacion con los demas.",
+"Busca apoyo en personas que te acepten y te valoren por quien eres, y no te juzguen en funcion de comparaciones con los demas.",
+"Enfocate en tus propias metas y objetivos en lugar de compararte constantemente con los demas."
+      ]
+  },
+  {
+      "tag": "hablar en publico",
+      "patterns": [
+          "Me siento ansioso cuando tengo que hablar en publico.",
+  "Hablar en publico me hace sentir ansioso y me cuesta controlar mis nervios",
+  "La ansiedad me abruma cuando tengo que hablar en publico y me resulta dificil concentrarme",
+  "Me siento ansioso y nervioso cuando tengo que hablar en publico y me preocupa no hacerlo bien",
+  "La idea de hablar en publico me causa ansiedad y me hace sentir incomodo",
+  "La ansiedad me golpea cuando tengo que hablar en publico y me cuesta encontrar las palabras adecuadas",
+  "Me siento ansioso cuando tengo que hablar en publico y me preocupa que los demas me juzguen negativamente",
+  "La ansiedad es un obstaculo para mi cuando tengo que hablar en publico y me cuesta mostrar mi verdadero yo",
+  "Hablar en publico es una fuente constante de ansiedad para mi y me cuesta superar mis miedos",
+  "Me siento incomodo y nervioso cuando tengo que hablar en publico y me preocupa equivocarme",
+  "La ansiedad me afecta cuando tengo que hablar en publico y me hace sentir inseguro acerca de mi capacidad para comunicarme eficazmente"
+  
+      ],
+      "responses": [
+"Respira profundamente y enfoca tu mente en tu mensaje, no en tus nervios. Poco a poco, la ansiedad se ira disipando"
+  
+      ]
+  },
+  {
+      "tag": "tareas pendientes",
+      "patterns": [
+          "Me siento abrumado por la cantidad de tareas pendientes y no se por donde empezar.",
+  "Tengo muchas tareas pendientes y me siento abrumado sin saber por donde empezar",
+  "La cantidad de trabajo que tengo que hacer me esta haciendo sentir abrumado y perdido",
+  "Estoy luchando contra la abrumadora cantidad de tareas pendientes y no se como abordarlas",
+  "La cantidad de trabajo que tengo que hacer me esta causando ansiedad y me siento abrumado",
+  "La abrumadora lista de tareas pendientes esta afectando mi capacidad para concentrarme y tomar decisiones",
+  "Me siento abrumado por la cantidad de trabajo que tengo que hacer y me cuesta encontrar la motivacion para comenzar",
+  "La lista de tareas pendientes parece interminable y me siento paralizado por la cantidad de trabajo",
+  "Estoy luchando por mantenerme al dia con todas las tareas pendientes y me siento abrumado por la carga de trabajo",
+  "La cantidad de tareas pendientes me esta haciendo sentir desmotivado y sin direccion",
+  "Tengo muchas tareas pendientes y no se por donde empezar, lo que me hace sentir abrumado y estresado"
+      ],
+      "responses": [
+          "Para manejar una lista de tareas pendientes, es importante establecer prioridades y trabajar en las tareas mas importantes primero. Tambien puedes crear una lista y dividirla en tareas mas pequeñas y manejables para hacer el proceso mas manejable.",         "La procrastinacion puede ser un problema para muchas personas, pero hay formas de manejarla. Puede ser util hacer una lista de tareas y establecer prioridades para abordarlas de manera mas efectiva. Tambien puede ser util dividir las tareas en partes mas pequeñas y manejables, o buscar la ayuda de un terapeuta si la procrastinacion se siente abrumadora." ,
+"Divide tus tareas en pequeñas metas alcanzables y prioriza lo que es mas importante. Empieza por ahi",
+"Haz una lista de tareas y ponlas en orden de prioridad. Luego, enfocate en una tarea a la vez",
+"No te sientas abrumado por todas las tareas que tienes que hacer. Enfocate en lo que puedes hacer ahora mismo",
+"Ponte objetivos realistas para el dia y celebra cada tarea que completes. Eso te motivara para continuar",
+"Aprende a decir 'no' a tareas que no son importantes o no tienen que ser hechas de inmediato. Eso te aliviara la carga de trabajo",
+"Asegurate de tomar descansos regulares y hacer algo que te relaje. Te ayudara a mantener una perspectiva clara",
+"Encuentra un amigo o compañero que te apoye en tu trabajo y te mantenga motivado. Juntos pueden ayudarse mutuamente",
+"Recuerda que tu capacidad de hacer tareas no define tu valor como persona. Date credito por lo que has logrado",
+"Enfocate en una tarea a la vez y no te preocupes por el resto. A medida que vayas avanzando, la carga de trabajo se reducira",
+"Celebra tus logros, incluso si son pequeños. Eso te motivara a seguir adelante y completar mas tareas"
+
+  
+      ]
+  },
+  {
+      "tag": "relaciones amorosas",
+      "patterns": [
+          "Me siento inseguro en mis relaciones amorosas y me cuesta confiar en otras personas.",
+  "Me resulta dificil confiar en los demas en mis relaciones amorosas y me siento inseguro acerca de la estabilidad de la relacion",
+  "La inseguridad me abruma en mis relaciones amorosas y me cuesta confiar en mi pareja",
+  "Me siento inseguro en mis relaciones amorosas y me cuesta abrirme emocionalmente a mi pareja",
+  "La falta de confianza es un problema constante en mis relaciones amorosas y me cuesta confiar en los demas",
+  "La inseguridad es un obstaculo para mi en mis relaciones amorosas y me hace sentir vulnerable",
+  "Me cuesta confiar en los demas en mis relaciones amorosas debido a experiencias pasadas que me han hecho sentir inseguro",
+  "La inseguridad es una lucha constante en mis relaciones amorosas y me cuesta confiar en mi pareja",
+  "Siento que mi inseguridad esta afectando mis relaciones amorosas y me cuesta confiar en mi pareja",
+  "La falta de confianza me esta impidiendo disfrutar plenamente de mis relaciones amorosas y me hace sentir inseguro",
+  "La inseguridad es un patron de pensamiento constante en mis relaciones amorosas y me cuesta confiar en los demas"
+      ],
+      "responses": [
+          "La confianza es una parte importante de cualquier relacion, y puede ser dificil confiar en los demas si has tenido experiencias negativas en el pasado. Trabajar en la comunicacion y la apertura en una relacion puede ayudar a construir la confianza. Tambien puede ser util buscar la ayuda de un terapeuta si te cuesta confiar en los demas." , "La inseguridad en las relaciones amorosas puede ser un desafio, pero puede superarse con trabajo y comunicacion. Puede ser util establecer limites claros y comunicar las necesidades y expectativas en la relacion. Tambien puede ser util trabajar en la autoestima y la confianza en uno mismo, o buscar la ayuda de un terapeuta si la inseguridad se siente abrumadora.", "Para tener relaciones amorosas saludables es importante trabajar en la confianza y en la comunicacion",
+  "Es normal sentir cierta inseguridad en las relaciones amorosas, pero es importante no dejar que esto controle tus decisiones",
+  "Trata de identificar de donde viene tu inseguridad en tus relaciones amorosas y busca formas de abordarla",
+  "La confianza se construye con el tiempo en las relaciones amorosas, no te rindas si te cuesta confiar al principio",
+  "No te compares con otras parejas, cada relacion es diferente y unica",
+  "Recuerda que en una relacion amorosa saludable, ambas partes deben sentirse seguras y apoyadas",
+  "Trata de ser honesto y transparente con tu pareja acerca de tus sentimientos de inseguridad, esto puede ayudar a construir confianza",
+  "Aprender a amarte y valorarte a ti mismo puede ayudar a reducir la inseguridad en tus relaciones amorosas",
+  "La comunicacion es clave en cualquier relacion amorosa, trata de expresar tus necesidades y expectativas de manera clara y respetuosa",
+  "Si te sientes constantemente inseguro en tus relaciones amorosas, considera buscar ayuda profesional para trabajar en tus patrones de pensamiento y comportamiento"
+      ]
+  },
+  {
+      "tag": "desmotivacion",
+      "patterns": [
+          "Me siento desmotivado y no encuentro la motivacion para hacer las cosas.",
+  "Me siento sin motivacion y luchando para encontrar la motivacion para hacer las cosas",
+  "La falta de motivacion es un problema constante para mi y me cuesta encontrar la motivacion para hacer las cosas",
+  "Me siento desmotivado y no encuentro la motivacion para realizar tareas que antes disfrutaba",
+  "La desmotivacion es un obstaculo para mi y me cuesta encontrar la motivacion para hacer las cosas que necesito hacer",
+  "Me siento desanimado y sin motivacion para hacer las cosas que se que debo hacer",
+  "La falta de motivacion me esta impidiendo realizar tareas importantes y me siento estancado",
+  "Me resulta dificil encontrar la motivacion para hacer las cosas y me siento atrapado en una rutina",
+  "La desmotivacion es un problema que afecta mi capacidad para realizar tareas cotidianas y me hace sentir frustrado",
+  "Me siento sin energia y desmotivado, lo que hace que sea dificil comenzar cualquier tarea",
+  "La falta de motivacion me esta afectando en todos los aspectos de mi vida y me cuesta encontrar la motivacion para seguir adelante"
+  
+      ],
+      "responses": [
+          "Es normal sentirse desmotivado de vez en cuando, pero es importante encontrar formas de motivarse a si mismo. Puede ser util establecer metas alcanzables y recompensarse a si mismo cuando se alcanzan. Tambien puede ser util buscar inspiracion en otras personas o actividades que disfrutes.",
+"Es importante reconocer que la falta de motivacion es algo que puede afectar a todos en algun momento de la vida",
+  "Trata de encontrar algo que te apasione y te motive a seguir adelante",
+  "Establece metas realistas y alcanzables para ti mismo para ayudarte a encontrar la motivacion",
+  "No te sientas culpable por tomarte un descanso cuando lo necesitas, a veces es necesario para recargar energias",
+  "Busca el apoyo de amigos y familiares en momentos en los que te sientas desmotivado",
+  "Considera la posibilidad de hablar con un terapeuta o consejero para obtener ayuda en la gestion de la desmotivacion",
+  "Encuentra formas de hacer las tareas mas agradables, como escuchar musica o trabajar en un lugar que te haga sentir comodo",
+  "Celebra tus logros, por pequenos que sean, para ayudarte a encontrar la motivacion para seguir adelante",
+  "Recuerda que todos tenemos altibajos en la motivacion, y que a veces solo se trata de seguir adelante hasta que vuelva la inspiracion",
+  "Trata de ser compasivo contigo mismo en momentos en los que te sientes desmotivado, y recuerda que eres mas que tu productividad"
+      ]
+  },
+  {
+      "tag": "estres laboral",
+      "patterns": [
+          "Me siento estresado y ansioso debido a una carga de trabajo excesiva en el trabajo o la escuela.",
+  "Me siento abrumado por una carga de trabajo excesiva en el trabajo o la escuela y esto me esta causando estres y ansiedad",
+  "La sobrecarga de trabajo en el trabajo o la escuela esta afectando mi salud mental y me siento estresado y ansioso",
+  "Me resulta dificil manejar la carga de trabajo en el trabajo o la escuela y esto me esta causando estres y ansiedad",
+  "El exceso de trabajo en el trabajo o la escuela me esta afectando emocionalmente y me siento estresado y ansioso",
+  "Me siento estresado y ansioso debido a una gran cantidad de trabajo que tengo que hacer en el trabajo o la escuela",
+  "La carga de trabajo en el trabajo o la escuela esta afectando mi bienestar mental y me siento abrumado",
+  "Me siento estresado y ansioso debido a una carga de trabajo que me parece inmanejable en el trabajo o la escuela",
+  "La cantidad de trabajo que tengo que hacer en el trabajo o la escuela me esta afectando emocionalmente y me siento estresado y ansioso",
+  "Me resulta dificil relajarme debido a una carga de trabajo abrumadora en el trabajo o la escuela que me hace sentir estresado y ansioso",
+  "La carga de trabajo en el trabajo o la escuela esta afectando mi calidad de vida y me siento estresado y ansioso"
+  
+      ],
+      "responses": [
+          "El estres laboral puede ser abrumador, pero hay formas de manejarlo. Puede ser util establecer limites claros entre el trabajo y el tiempo libre, asi como hacer tiempo para actividades que reduzcan el estres, como el ejercicio o la meditacion. Tambien puede ser util hablar con un supervisor o un consejero escolar para buscar soluciones." , "Para manejar el estres, puede ser util establecer limites y aprender a decir 'no' cuando sea necesario. Tambien puede ser util practicar tecnicas de relajacion como la meditacion y el yoga.", "Es importante que tomes descansos regulares y te desconectes del trabajo o la escuela para reducir tu estres y ansiedad",
+  "Habla con tu jefe o profesor acerca de tu carga de trabajo y explicales como te esta afectando emocionalmente",
+  "Busca apoyo en amigos y familiares para ayudarte a manejar el estres y la ansiedad relacionados con tu carga de trabajo",
+  "Aprende tecnicas de manejo del estres, como la meditacion y la respiracion profunda, para ayudarte a lidiar con tu carga de trabajo",
+  "Establece prioridades y organiza tu tiempo para que puedas manejar mejor tu carga de trabajo y reducir tu estres y ansiedad",
+  "Asegurate de que estas durmiendo lo suficiente y comiendo bien para ayudar a reducir tu estres y ansiedad",
+  "Encuentra actividades que te gusten fuera del trabajo o la escuela para distraerte y reducir tu estres y ansiedad",
+  "No tengas miedo de pedir ayuda si te sientes abrumado por tu carga de trabajo en el trabajo o la escuela",
+  "Recuerda que tu bienestar mental es importante y que necesitas cuidarte a ti mismo para manejar tu carga de trabajo de manera efectiva",
+  "Busca ayuda profesional si sientes que tu estres y ansiedad estan fuera de control y te impiden manejar tu carga de trabajo en el trabajo o la escuela"
+      ]
+  
+  },
+  {
+      "tag": "problemas de sueño",
+      "patterns": [
+          "Estoy teniendo dificultades para dormir y estoy luchando por mantenerme despierto durante el dia.",
+  "Me esta costando dormir y mantenerme despierto durante el dia, lo que esta afectando mi rendimiento en el trabajo o la escuela",
+  "La falta de sueño esta afectando mi capacidad para mantenerme despierto durante el dia y estoy luchando por mantenerme concentrado",
+  "Me siento cansado durante el dia porque no estoy durmiendo lo suficiente por la noche y esto esta afectando mi bienestar",
+  "La falta de sueño esta afectando mi estado de animo y estoy luchando por mantenerme alerta durante el dia",
+  "Me resulta dificil dormir por la noche y esto esta afectando mi capacidad para funcionar adecuadamente durante el dia",
+  "La falta de sueño me esta causando problemas de salud y estoy luchando por mantenerme productivo durante el dia",
+  "Me siento fatigado todo el tiempo debido a la falta de sueño y estoy luchando por mantenerme enfocado",
+  "La falta de sueño esta afectando mi calidad de vida y estoy luchando por mantenerme despierto durante el dia",
+  "Me esta costando dormir y estoy luchando por mantenerme alerta durante el dia, lo que esta afectando mi capacidad para realizar tareas cotidianas",
+  "La falta de sueño esta afectando mi capacidad para funcionar adecuadamente durante el dia y estoy luchando por mantenerme motivado"
+  
+      ],
+      "responses": [
+          "La falta de sueño puede tener un impacto negativo en la salud fisica y mental. Es importante establecer una rutina de sueño regular y crear un ambiente propicio para dormir, como mantener la habitacion oscura y fresca. Tambien puede ser util reducir la exposicion a dispositivos electronicos antes de acostarse y practicar tecnicas de relajacion antes de dormir." ,         "La falta de sueño puede tener un impacto negativo en la salud fisica y mental. Es importante establecer una rutina de sueño regular y crear un ambiente propicio para dormir, como mantener la habitacion oscura y fresca. Tambien puede ser util reducir la exposicion a dispositivos electronicos antes de acostarse y practicar tecnicas de relajacion antes de dormir." ,
+"Establece una rutina regular para dormir y despertar, esto puede ayudar a regular tu ciclo de sueño.",
+  "Evita estimulantes como la cafeina y la nicotina antes de dormir.",
+  "Intenta relajarte antes de dormir, como leer un libro o escuchar musica relajante.",
+  "Manten tu dormitorio fresco, oscuro y tranquilo para promover un ambiente de sueño adecuado.",
+  "Evita usar dispositivos electronicos antes de dormir, ya que pueden interferir con tu capacidad para dormir.",
+  "Considera hacer ejercicio durante el dia, esto puede ayudar a mejorar la calidad de tu sueño.",
+  "Habla con tu medico o un especialista en sueño si estas teniendo problemas para dormir durante un periodo prolongado.",
+  "Prueba tecnicas de relajacion como la meditacion o la respiracion profunda para reducir el estres y mejorar tu capacidad para dormir.",
+  "Intenta establecer una hora regular para ir a dormir y despertar, incluso los fines de semana.",
+  "Evita dormir en exceso durante el dia, ya que esto puede afectar tu capacidad para dormir por la noche."
+  
+      ]
+  },
+  {
+      "tag": "incomprendido",
+      "patterns": [
+          "Me siento incomprendido y nadie parece entender mis sentimientos.",
+  "Siento que nadie entiende lo que estoy pasando y me siento aislado emocionalmente",
+  "Me resulta dificil expresar mis sentimientos porque siento que nadie los comprende o los toma en serio",
+  "Me siento solo en mi lucha emocional y me gustaria que alguien pudiera entenderme y apoyarme",
+  "La falta de comprension de las personas a mi alrededor me hace sentir incomprendido y frustrado",
+  "Siento que no tengo a nadie con quien hablar de mis sentimientos y esto me hace sentir incomprendido y solo",
+  "La falta de empatia de las personas a mi alrededor me hace sentir incomprendido y desvalorizado",
+  "Me resulta dificil encontrar a alguien que pueda relacionarse con mis sentimientos y esto me hace sentir incomprendido",
+  "Siento que nadie puede entender lo que estoy pasando y esto me hace sentir aislado y emocionalmente distante",
+  "La falta de comprension de las personas a mi alrededor me hace sentir incomprendido e invisible",
+  "Me siento incomprendido y me gustaria que alguien pudiera escucharme y entender lo que estoy sintiendo"
+  
+      ],
+      "responses": [
+          "Sentirse incomprendido puede ser dificil, pero es importante recordar que cada persona experimenta la vida de manera unica. Puede ser util buscar la ayuda de un terapeuta para procesar y comprender mejor los propios sentimientos y necesidades. Tambien puede ser util comunicarse de manera clara y honesta con amigos y seres queridos para buscar el apoyo emocional que se necesita." , "Es posible que desees buscar un grupo de apoyo o hablar con un profesional si te sientes incomprendido. Tambien puede ser util trabajar en la comunicacion para asegurarse de que tus sentimientos y necesidades sean claras para los demas.",
+"Es importante recordar que no estas solo en tus sentimientos y que hay personas que pueden comprender lo que estas pasando",
+  "Trata de encontrar personas en tu vida que puedan ser un apoyo emocional y que te escuchen sin juzgarte",
+  "Recuerda que tus sentimientos son validos y merecen ser tomados en serio, incluso si otros no los comprenden",
+  "Si te resulta dificil hablar con personas cercanas a ti, considera buscar ayuda profesional para hablar de tus sentimientos",
+  "La empatia es una habilidad que puede ser aprendida, asi que no pierdas la esperanza de que las personas puedan entender tus sentimientos en el futuro",
+  "Trata de practicar la empatia y la comprension hacia los demas, esto puede ayudar a que otros se sientan mas comodos para entender tus propios sentimientos",
+  "Busca actividades o grupos que compartan tus intereses y sentimientos, esto puede ayudarte a conectarte con personas que puedan entenderte mejor",
+  "Recuerda que el proceso de comunicar tus sentimientos puede ser dificil, pero a veces es necesario para recibir el apoyo emocional que necesitas",
+  "Trata de no comparar tus sentimientos con los de los demas, todos tienen experiencias unicas y validas",
+  "Si te sientes incomprendido y solo, considera buscar ayuda en linea o en grupos de apoyo, hay muchas comunidades que pueden brindar apoyo emocional",
+  "No te rindas en buscar el apoyo emocional que necesitas, hay personas dispuestas a escucharte y ayudarte"
+  
+      ]
+  }
+  
+  
+  ]}
+
+
